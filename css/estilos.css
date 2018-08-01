@@ -6,23 +6,90 @@
 
 header{
     width: 100%;
-    background: gray;
+    background: white;
     position: fixed;
-    z-index: 1;
 }
 
 .menu{
     width: 100%;
     max-width: 1100px;
     margin: auto;
-    padding: .5em 0;
+    padding: .2em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu .containe-menu .logo .btn-menu{
+.menu .container-menu .logo .btn-menu{
     text-decoration: none;
-    color: #fff;
+    color: black;;
     font-size: 30px;
+    display: none;
+}
+
+.menu .container-menu .logo .logo-name{
+    display: flex;
+    align-items: center;
+}
+
+.menu .container-menu .logo .logo-name a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+.menu .menu-link ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.menu .menu-link ul li{
+    display: inline-block;
+    align-items: center;
+}
+
+.menu .menu-link ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    font-size: 1.2em;
+    transition: .2s;
+    border-bottom: 2px solid transparent;
+}
+
+.menu .menu-link ul li a:hover{
+    border-bottom: 2px solid gray;
+}
+
+.slider{
+    position: relative;
+}
+
+.menu .container-menu .logo .logo-name img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    
 }
