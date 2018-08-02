@@ -125,7 +125,7 @@ header{
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
     .menu .container-menu .logo .btn-menu{
         display: block;
         padding-top: 20px;
