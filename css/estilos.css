@@ -125,7 +125,7 @@ header{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
     .menu .container-menu .logo .btn-menu{
         display: block;
         padding-top: 20px;
@@ -166,4 +166,77 @@ header{
         text-align: center;
         margin :0;
     }
+
+    .clientes .card-deck .card{
+        width: 45%;
+        display: inline-block;
+
+    }
+
+    .clientes .card-deck{
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+.servicios{
+    margin-top: 64px;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+.servicios .row a{
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    color: gray;
+    transition: 0.3s;
+}
+
+.servicios .row a:hover{
+    text-decoration: none;
+    background: gray;
+    color: white;   
+}
+
+.servicios .servicios-desc{
+    margin-bottom: 48px;
+}
+
+.servicios .item-servicio{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios .item-servicio div{
+    display: inline-block;
+    width: 80%;
+}
+
+.servicios i{
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.clientes{
+    margin-top: 60px;
+    padding-top: 50px;
+}
+
+.clientes h1{
+    text-align: center;
+}
+
+.clientes p{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.clientes h5{
+    text-align: center;
 }

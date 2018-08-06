@@ -1,0 +1,67 @@
+<div class="row">
+            <div class="col-md-6 item-servicio">
+                    <div class="col-md-1">
+                        <i class="fa fa-industry"></i>
+                    </div>
+                    <div class="col-md-5">
+                        Constituciones de empresas
+                    </div>
+            </div>
+            <a href="" class="col-md-6 ">
+                <div class="item-servicio">
+                    <i class="fa fa-briefcase"></i>Asesoría laboral
+                </div>
+            </a>
+
+        </div>
+        <div class="row">
+            <a href="" class="col-md-6 ">
+                <div class="item-servicio">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    </i>Outsourcing Contable
+                </div>
+            </a>
+            <a href="" class="col-md-6 ">
+                <div class="item-servicio">
+                    <i class="fas fa-edit"></i>Toma de inventarios
+                </div>
+            </a>
+
+        </div>
+        <div class="row">
+            <a href="" class="col-md-6 ">
+                <div class="item-servicio">
+                    <i class="fas fa-pencil-alt"></i>Asesoría y consultoría contable
+                </div>
+            </a>
+            <a href="" class="col-md-6 ">
+                <div class="item-servicio">
+                    <i class="fas fa-paperclip"></i>Capacitaciones en temas contables
+                </div>
+            </a>
+
+        </div>
+        <div class="row">
+            <a href="" class="col-md-6 ">
+                <div class="item-servicio">
+                    <i class="fas fa-newspaper"></i>Regularización contable y planilla
+                </div>
+            </a>
+            <a href="" class="col-md-6 ">
+                <div class="item-servicio">
+                    <i class="fas fa-book"></i>
+                    Control de Activos Fijos
+                </div>
+            </a>
+
+        </div>
+        <center>
+            <div class="row">
+                <a href="" class="col-md-12">
+                    <div class="item-servicio">
+                        <i class="fas fa-user-edit"></i>
+                        Auditoría financiera y tributaria
+                    </div>
+                </a>
+            </div>
+        </center>
