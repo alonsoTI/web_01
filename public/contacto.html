@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +14,9 @@
         crossorigin="anonymous">
     <title>Valdivia Contadores Asociados</title>
 </head>
+
 <body>
+
     <header>
         <nav class="menu">
             <div class="container-menu">
@@ -33,7 +36,7 @@
             <div class="menu-link">
                 <ul>
                     <li>
-                        <a href="index.html">
+                        <a href="/index.html">
                             <i class="fa fa-home"></i>&ensp;Inicio</a>
                     </li>
                     <li>
@@ -58,63 +61,137 @@
         </nav>
     </header>
 
-    <div class="container contactate row">
-        <div class="col-md-6">
-            <h3>¡CONTÁCTATE CON NOSOTROS!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <div class="tel">
-                <i></i>
-                <div>
-                    <p>Teléfono</p>
-                    <p>(51) 946 868 880 | (51) 1 250 1405</p>
+    <main role="main">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="banner"></div>
+                    <img class="first-slide" src="../img/la.jpg" s>
+                    <div class="contacto-form">
+                        <form action="">
+                            <h1>Contáctanos</h1>
+                            <div class="form">
+                                <input type="text" value="Nombre" onclick="if(this.value=='Nombre') this.value=''" onblur="if(this.value=='') this.value='Nombre'">
+                                <input type="email" value="Correo" onclick="if(this.value=='Correo') this.value=''" onblur="if(this.value=='') this.value='Correo'">
+                                <input type="text" value="Asunto" onclick="if(this.value=='Asunto') this.value=''" onblur="if(this.value=='') this.value='Asunto'">
+                                <textarea rows="5" onclick="if(this.value=='Mensaje') this.value=''" onblur="if(this.value=='') this.value='Mensaje'">Mensaje</textarea>
+                            </div>
+                            <button type="button" class="btn btn-info enviar">Enviar</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="email">
-                <i></i>
-                <div>
-                    <p>Correo</p>
-                    <p>correo@correo.com</p>
-                </div>
-            </div>
-            <div class="address">
-                <i></i>
-                <div>
-                    <p>Dirección</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
+
             </div>
         </div>
-        <div class="col-md-6">
-            <h3>¿Escríbenos</h3>
-            <p>Envíanos un mensaje y te responderemos lo más pronto posible.</p>
-            <div class="row">
-                <div class="col-md-6">
-                    <form action="/action_page.php">
-                        <div class="form-group">
-                          <input type="text" class="form-control" id="nombre" placeholder="Nombre*">
-                        </div>
-                        <div class="form-group">
-                          <input type="email" class="form-control" id="correo" placeholder="Correo*">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="asunto" placeholder="Asunto*">
-                          </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                      
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje*" rows="5"></textarea>
-                      </div>
-                    </form>
-                </div> 
-            </div>
         </div>
-    </div>
+        <!-- /.container -->
+    </main>
+    <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1950.717732690363!2d-77.03359021360502!3d-12.082312671362175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1534124809396"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer font-small" style="background: #1c2331; color:white; padding-top: 20px;">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">Sobre nosotros</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color:white;">
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Servicios</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;background-color:white;">
+                    <p>
+                        <a href="#!">MDBootstrap</a>
+                    </p>
+                    <p>
+                        <a href="#!">MDWordPress</a>
+                    </p>
+                    <p>
+                        <a href="#!">BrandFlow</a>
+                    </p>
+                    <p>
+                        <a href="#!">Bootstrap Angular</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Clientes</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;background-color:white;">
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;background-color:white;">
+                    <p>
+                        <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="background: #161c27; color:white">Desarrollado por CodeG3
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
     <div class="social-bar">
         <a href="" class="icon icon-facebook"></a>
         <a href="" class="icon icon-youtube"></a>
         <a href="" class="icon icon-mail2"></a>
     </div>
 </body>
+
 </html>

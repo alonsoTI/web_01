@@ -184,19 +184,20 @@ header{
     width: 90%;
     margin-top: 100px;
     margin-left: 5%;
+
 }
 
 .servicios .row a{
     font-size: 20px;
     border-radius: 15px;
     padding: 10px;
-    color: gray;
+    color: #3f60a5;
     transition: 0.3s;
 }
 
 .servicios .row a:hover{
     text-decoration: none;
-    background: gray;
+    background: #3f60a5;
     color: white;   
 }
 
@@ -241,8 +242,8 @@ header{
     text-align: center;
 }
 
-.contactate{
-    padding-top: 10em;
+.contacto{
+    padding-top: 5em;
 }
 
 .info-container{
@@ -255,18 +256,24 @@ header{
     max-width: 1000px;
     margin: auto;
     text-align: center;
-    padding: 30px 250px;
+    padding: 30px 50px;
+}
+
+.info-main button{
+    font-size: 20px;
+    padding: 5px 20px;
+    margin-top: 30px;
 }
 
 .info-main h3{
-    color:#00c6ee;
+    color:#3f60a5;
     font-size: 40px;
     text-align: center;
 }
 
-
 .info-main p{
-    padding: 20px 0;
+    font-size: 15px;
+    padding: 20px 0px; 
 }
 
 .info-main a{
@@ -337,4 +344,71 @@ footer{
     display: block;
     margin-left: 10px;
     margin-bottom: 15px;
+}
+
+.contacto-form{
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: black;
+    opacity: 0.8;
+    padding: 30px;
+    border-radius: 2%;
+}
+
+.contacto-form h1{
+    margin-bottom: 50px;
+}
+
+.contacto-form input{
+    width: 80%;
+    margin-bottom: 30px;
+    background: rgba(0,0,0,0);
+    border:none;
+    border-bottom: 2px solid white;
+    color:white;
+    transition: 0.3s;
+}
+
+.contacto-form input:active{
+    width: 90%;
+    outline:0px;
+}
+
+.contacto-form input:focus{
+    width: 90%;
+    outline:0px;
+}
+
+textarea{
+    width: 80%;
+    margin-bottom: 30px;
+    background: rgba(0,0,0,0);
+    border:none;
+    border-bottom: 2px solid white;
+    color:white;
+    transition: 0.3s;
+}
+
+.contacto-form textarea:active{
+    width: 90%;
+}
+
+.contacto-form textarea:focus{
+    width: 90%;
+    outline:0px;
+}
+
+::-webkit-input-placeholder{
+    color:white;
+}
+
+.enviar{
+    width: 60%;
+    font-size: 30px;
+    margin-top: 30px;
 }
