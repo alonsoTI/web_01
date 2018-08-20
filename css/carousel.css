@@ -12,6 +12,12 @@ body {
   height: 100vh;
   background-color: #777;
 }
+
+.carousel-item2 {
+  height: 40vh;
+  background-color: #777;
+}
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -59,5 +65,11 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .carousel-item2 {
+    height: 55vh;
   }
 }
